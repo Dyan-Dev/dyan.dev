@@ -14,7 +14,9 @@ export default function Home() {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-300 mb-10">
-          Dyan is a self-hosted platform to build, test, and export blazing-fast APIs from your database using visual tools and JavaScript/Python logic.
+          Dyan is a self-hosted platform to build, test, and export blazing-fast
+          APIs from your database using visual tools and JavaScript/Python
+          logic.
         </p>
 
         <a
@@ -25,6 +27,10 @@ export default function Home() {
           🌟 View on GitHub
         </a>
       </div>
+      <footer className="mt-20 text-center text-sm text-gray-500">
+        © {new Date().getFullYear()} Dyan — Built with ❤️ by open-source
+        contributors
+      </footer>
     </main>
   );
 }
