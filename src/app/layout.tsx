@@ -6,12 +6,12 @@ export const metadata = {
   description:
     'Dyan is a self-hosted platform to visually build, test, and deploy high-performance REST APIs from any database using JS/Python logic and Rust codegen.',
   keywords: ['Dyan', 'API Builder', 'Rust', 'NestJS', 'Open Source', 'Visual'],
-  metadataBase: new URL('https://dyan.dev'),
+  metadataBase: new URL('https://dyan.live'),
   openGraph: {
     title: 'Dyan — Visual REST API Builder',
     description:
       'Visually create REST APIs, test logic in-browser, and generate blazing-fast Rust microservices. Self-hosted and open source.',
-    url: 'https://dyan.dev',
+    url: 'https://dyan.live',
     siteName: 'Dyan',
     images: [
       {
