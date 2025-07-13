@@ -19,13 +19,25 @@ export default function Home() {
           logic.
         </p>
 
-        <a
-          href="https://github.com/dyan-dev/dyan"
-          className="bg-white text-black font-semibold px-6 py-3 rounded hover:bg-gray-200 transition"
-          target="_blank"
-        >
-          🌟 View on GitHub
-        </a>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <a
+            href="https://github.com/dyan-dev/dyan"
+            className="bg-white text-black font-semibold px-6 py-3 rounded hover:bg-gray-200 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🌟 View on GitHub
+          </a>
+
+          <a
+            href="https://discord.gg/ZQ4pKRA7"
+            className="bg-indigo-600 text-white font-semibold px-6 py-3 rounded hover:bg-indigo-700 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💬 Join our Discord
+          </a>
+        </div>
       </div>
       <footer className="mt-20 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} Dyan — Built with ❤️ by open-source
